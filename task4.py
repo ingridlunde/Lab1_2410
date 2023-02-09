@@ -14,11 +14,11 @@ def jainsall(valuelist):
     # For løkke for å iterere over verdiene i listen.
     for x in valuelist:
         # Henter ut verdien som skal legges i s
-        s = float(x)
+        s = s + float(x)
         # Henter ut verdien som skal legges til i k og opphøyes
         k = k + float(x) ** 2
 
-    result = (s ** 2) / (n * k)
+    result = ((s ** 2) / (n * k))
     return result
 
 
